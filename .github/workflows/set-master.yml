@@ -1,0 +1,9 @@
+name: Trigger GitHub Branch Sync
+
+on: [push]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Triggering sync"
